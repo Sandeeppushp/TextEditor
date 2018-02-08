@@ -1,3 +1,5 @@
+# install pyqt before running this file
+
 import sys
 from PyQt4 import QtGui, QtCore			#QtCore for button
 
