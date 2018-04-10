@@ -1,4 +1,4 @@
-# install pyqt before running this file
+# install pyqt before running this file.
 
 import sys
 from PyQt4 import QtGui, QtCore			
@@ -30,7 +30,7 @@ class window(QtGui.QMainWindow):
 		self.statusBar()
 
 		mainMenu=self.menuBar()
-		fileMenu=mainMenu.addMenu('&File')								# set file name at menu bar
+		fileMenu=mainMenu.addMenu('&File')			# set file name at menu bar
 
 		fileMenu.addAction(openFile)
 		fileMenu.addAction(saveFile)
