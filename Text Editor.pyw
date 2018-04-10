@@ -4,7 +4,7 @@ import sys
 from PyQt4 import QtGui, QtCore			
 
 class window(QtGui.QMainWindow):
-	def __init__(self):					#initial run when object created
+	def __init__(self):					
 		super(window,self).__init__()
 		self.setGeometry(50,50,1100,640)
 		self.setWindowTitle('Notepad by Sk')
