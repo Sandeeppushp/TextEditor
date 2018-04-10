@@ -1,7 +1,7 @@
 # install pyqt before running this file
 
 import sys
-from PyQt4 import QtGui, QtCore			#QtCore for button
+from PyQt4 import QtGui, QtCore			
 
 class window(QtGui.QMainWindow):
 	def __init__(self):					#initial run when object created
